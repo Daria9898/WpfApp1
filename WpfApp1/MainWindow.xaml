@@ -31,6 +31,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
+        <Button Content="Радио" Click="Button_Click" Margin="325,325,337,19"/>
         <Image Name="DisplayImage" HorizontalAlignment="Left" Height="238" Margin="113,104,0,0" VerticalAlignment="Top" Width="301"/>
 
     </Grid>

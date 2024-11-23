@@ -22,6 +22,7 @@ namespace WpfApp1
         private double _currentValue = 0;
         private double _storedValue = 0;
         private char _operation = ' ';
+
         public Window1()
         {
             InitializeComponent();

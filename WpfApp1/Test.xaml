@@ -1,0 +1,41 @@
+﻿<Window x:Class="WpfApp1.Test"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Test" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Покемон девятого поколения?" VerticalAlignment="Top" Width="183"/>
+            <RadioButton Name="radioBin" Content="Райкваза" />
+            <RadioButton Name="radioBin2"  Content="Артикуно" />
+            <RadioButton Name="radioBin3" Content="Понита"/>
+            <RadioButton Name="radioBin4" Content="Мяускарада"/>
+            <Separator/>
+            <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Символ франшизы покемонов?" VerticalAlignment="Top" Width="183"/>
+            <RadioButton Name="radioBin5" Content="Бульбозавр" />
+            <RadioButton Name="radioBin6" Content="Мяут" />
+            <RadioButton Name="radioBin7" Content="Пикачу"/>
+            <RadioButton Name="radioBin9" Content="Чаризард"/>
+            <Separator/>
+            <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Покемон первого поколения, атакующий огнем?" VerticalAlignment="Top" Width="261"/>
+            <RadioButton Name="radioBin10" Content="Пикачу" />
+            <RadioButton Name="radioBin11" Content="Бульбазавр" />
+            <RadioButton Name="radioBin12" Content="Чаризард"/>
+            <RadioButton Name="radioBin13" Content="Сквиртл"/>
+            <Separator/>
+            <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Сколько форм эволюций у Иви?" VerticalAlignment="Top" Width="183"/>
+            <RadioButton Name="radioBin14" Content="Восемь" />
+            <RadioButton Name="radioBin15" Content="Пять" />
+            <RadioButton Name="radioBin16" Content="Четыре"/>
+            <RadioButton Name="radioBin17" Content="Семь"/>
+            <Separator/>
+            <Button Content="Посмотреть результат " Click="Button_Click"/>
+            
+        </StackPanel>
+        
+
+    </Grid>
+</Window>
